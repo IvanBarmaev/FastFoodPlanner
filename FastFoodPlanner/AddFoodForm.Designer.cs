@@ -32,10 +32,10 @@
             this.NameTB = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.DescriptionRTB = new System.Windows.Forms.RichTextBox();
             this.ValueNUD = new System.Windows.Forms.NumericUpDown();
             this.CancelBtn = new System.Windows.Forms.Button();
             this.AcceptBtn = new System.Windows.Forms.Button();
+            this.DescriptionRTB = new System.Windows.Forms.RichTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.ValueNUD)).BeginInit();
             this.SuspendLayout();
             // 
@@ -73,14 +73,6 @@
             this.label3.TabIndex = 4;
             this.label3.Text = "Описание";
             // 
-            // DescriptionRTB
-            // 
-            this.DescriptionRTB.Location = new System.Drawing.Point(12, 103);
-            this.DescriptionRTB.Name = "DescriptionRTB";
-            this.DescriptionRTB.Size = new System.Drawing.Size(235, 130);
-            this.DescriptionRTB.TabIndex = 3;
-            this.DescriptionRTB.Text = "";
-            // 
             // ValueNUD
             // 
             this.ValueNUD.DecimalPlaces = 2;
@@ -91,8 +83,8 @@
             131072});
             this.ValueNUD.Location = new System.Drawing.Point(12, 64);
             this.ValueNUD.Maximum = new decimal(new int[] {
-            1410065408,
-            2,
+            1215752192,
+            23,
             0,
             0});
             this.ValueNUD.Name = "ValueNUD";
@@ -118,6 +110,14 @@
             this.AcceptBtn.TabIndex = 4;
             this.AcceptBtn.Text = "Добавить";
             this.AcceptBtn.UseVisualStyleBackColor = true;
+            // 
+            // DescriptionRTB
+            // 
+            this.DescriptionRTB.Location = new System.Drawing.Point(12, 103);
+            this.DescriptionRTB.Name = "DescriptionRTB";
+            this.DescriptionRTB.Size = new System.Drawing.Size(235, 130);
+            this.DescriptionRTB.TabIndex = 3;
+            this.DescriptionRTB.Text = "";
             // 
             // AddFoodForm
             // 
@@ -151,7 +151,7 @@
         private System.Windows.Forms.Button CancelBtn;
         private System.Windows.Forms.Button AcceptBtn;
         public System.Windows.Forms.TextBox NameTB;
-        public System.Windows.Forms.RichTextBox DescriptionRTB;
         public System.Windows.Forms.NumericUpDown ValueNUD;
+        public System.Windows.Forms.RichTextBox DescriptionRTB;
     }
 }

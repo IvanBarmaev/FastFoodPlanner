@@ -77,6 +77,7 @@
     <Compile Include="CompositionForm.Designer.cs">
       <DependentUpon>CompositionForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Food.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
