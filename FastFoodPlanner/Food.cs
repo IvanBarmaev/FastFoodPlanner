@@ -9,7 +9,7 @@ namespace FastFoodPlanner
     internal class Food
     {
         string _name, _description;
-        double _price;
+        long _price;
 
         public string name
         {
@@ -17,7 +17,7 @@ namespace FastFoodPlanner
             set { if (value.Trim() != "") _name = value; }
         }
 
-        public double price
+        public long price
         {
             get { return _price; }
             set { _price = value; }
@@ -29,7 +29,7 @@ namespace FastFoodPlanner
             set { if (_description.Trim() != "") _description = value; }
         }
 
-        public Food(string _name, double _price,  string _description)
+        public Food(string _name, long _price,  string _description)
         {
             this._name = _name;
             this._price = _price;

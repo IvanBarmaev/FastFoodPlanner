@@ -59,7 +59,7 @@
             // 
             this.AddFoodBtn.Location = new System.Drawing.Point(294, 25);
             this.AddFoodBtn.Name = "AddFoodBtn";
-            this.AddFoodBtn.Size = new System.Drawing.Size(105, 23);
+            this.AddFoodBtn.Size = new System.Drawing.Size(111, 23);
             this.AddFoodBtn.TabIndex = 2;
             this.AddFoodBtn.Text = "Добавить блюдо";
             this.AddFoodBtn.UseVisualStyleBackColor = true;
@@ -69,16 +69,17 @@
             // 
             this.ChnageFoodBtn.Location = new System.Drawing.Point(294, 54);
             this.ChnageFoodBtn.Name = "ChnageFoodBtn";
-            this.ChnageFoodBtn.Size = new System.Drawing.Size(105, 23);
+            this.ChnageFoodBtn.Size = new System.Drawing.Size(111, 23);
             this.ChnageFoodBtn.TabIndex = 3;
-            this.ChnageFoodBtn.Text = "Изменить рецепт";
+            this.ChnageFoodBtn.Text = "Изменить данные";
             this.ChnageFoodBtn.UseVisualStyleBackColor = true;
+            this.ChnageFoodBtn.Click += new System.EventHandler(this.ChnageFoodBtn_Click);
             // 
             // DeleteFoodBtn
             // 
             this.DeleteFoodBtn.Location = new System.Drawing.Point(294, 83);
             this.DeleteFoodBtn.Name = "DeleteFoodBtn";
-            this.DeleteFoodBtn.Size = new System.Drawing.Size(105, 23);
+            this.DeleteFoodBtn.Size = new System.Drawing.Size(111, 23);
             this.DeleteFoodBtn.TabIndex = 4;
             this.DeleteFoodBtn.Text = "Удалить блюдо";
             this.DeleteFoodBtn.UseVisualStyleBackColor = true;
@@ -98,7 +99,7 @@
             this.DescriptionRTB.Location = new System.Drawing.Point(12, 399);
             this.DescriptionRTB.Name = "DescriptionRTB";
             this.DescriptionRTB.ReadOnly = true;
-            this.DescriptionRTB.Size = new System.Drawing.Size(384, 121);
+            this.DescriptionRTB.Size = new System.Drawing.Size(393, 121);
             this.DescriptionRTB.TabIndex = 6;
             this.DescriptionRTB.Text = "";
             // 
@@ -106,7 +107,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(408, 532);
+            this.ClientSize = new System.Drawing.Size(417, 532);
             this.Controls.Add(this.DescriptionRTB);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.DeleteFoodBtn);

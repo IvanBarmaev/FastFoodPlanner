@@ -40,7 +40,7 @@ namespace FastFoodPlanner
             adapter.Fill(data);
             foreach (DataRow i in data.Rows)
             {
-                foods.Add(new Food(i.Field<string>("Название"), i.Field<double>("Стоимость"), i.Field<string>("Описание")));
+                foods.Add(new Food(i.Field<string>("Название"), i.Field<long>("Стоимость"), i.Field<string>("Описание")));
                 MenuLB.Items.Add(foods.Last());
                 //MenuLB.Items.Add($"{i.Field<long>("ID_блюда")} {i.Field<string>("Название")}. Стоимость: {i.Field<double>("Стоимость")}");
             }
@@ -65,7 +65,7 @@ namespace FastFoodPlanner
                     command.Parameters.AddWithValue("description", add_food.DescriptionRTB.Text);
                     command.ExecuteNonQuery();
                     transaction.Commit();
-                    foods.Add(new Food(add_food.NameTB.Text, Convert.ToDouble(add_food.ValueNUD.Value), add_food.DescriptionRTB.Text));
+                    foods.Add(new Food(add_food.NameTB.Text, Convert.ToInt32(add_food.ValueNUD.Value), add_food.DescriptionRTB.Text));
                     MenuLB.Items.Add(foods.Last());
                 }
                 catch (Exception ex)
@@ -96,6 +96,30 @@ namespace FastFoodPlanner
                 foods.RemoveAt(MenuLB.SelectedIndex);
                 MenuLB.Items.RemoveAt(MenuLB.SelectedIndex);
                 DescriptionRTB.Clear();
+            }
+        }
+
+        private void ChnageFoodBtn_Click(object sender, EventArgs e)
+        {
+            if (MenuLB.SelectedIndex != -1)
+            {
+                Food temp = foods[MenuLB.SelectedIndex];
+                AddFoodForm change_food = new AddFoodForm();
+                change_food.AcceptBtn.Text = "Изменить";
+                change_food.NameTB.Text = temp.name;
+                change_food.ValueNUD.Value = Convert.ToDecimal(temp.price);
+                change_food.DescriptionRTB.Text = temp.description;
+                if (change_food.ShowDialog() == DialogResult.OK)
+                {
+                    command.CommandText = $"UPDATE Блюдо SET Название=\"{change_food.NameTB.Text}\"" +
+                        $", Стоимость={Convert.ToInt32(change_food.ValueNUD.Value)}, Описание=\"{change_food.DescriptionRTB.Text}\" WHERE Название=\"{temp.name}\"";
+                    command.ExecuteNonQuery();
+                    temp.name = change_food.NameTB.Text;
+                    temp.price = Convert.ToInt32(change_food.ValueNUD.Value);
+                    temp.description = change_food.DescriptionRTB.Text;
+                    MenuLB.Items[MenuLB.SelectedIndex] = temp;
+                }
+                
             }
         }
     }

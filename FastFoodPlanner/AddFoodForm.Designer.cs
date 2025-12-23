@@ -75,12 +75,6 @@
             // 
             // ValueNUD
             // 
-            this.ValueNUD.DecimalPlaces = 2;
-            this.ValueNUD.Increment = new decimal(new int[] {
-            1,
-            0,
-            0,
-            131072});
             this.ValueNUD.Location = new System.Drawing.Point(12, 64);
             this.ValueNUD.Maximum = new decimal(new int[] {
             1215752192,
@@ -149,9 +143,9 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button CancelBtn;
-        private System.Windows.Forms.Button AcceptBtn;
         public System.Windows.Forms.TextBox NameTB;
         public System.Windows.Forms.NumericUpDown ValueNUD;
         public System.Windows.Forms.RichTextBox DescriptionRTB;
+        public System.Windows.Forms.Button AcceptBtn;
     }
 }
