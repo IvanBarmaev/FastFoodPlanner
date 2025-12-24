@@ -22,3 +22,4 @@ D:\Универ\Проекты 4 курс\FastFoodPlanner\FastFoodPlanner\bin\De
 D:\Универ\Проекты 4 курс\FastFoodPlanner\FastFoodPlanner\bin\Debug\System.Data.SQLite.xml
 D:\Универ\Проекты 4 курс\FastFoodPlanner\FastFoodPlanner\obj\Debug\FastFoodPlanner.CompositionForm.resources
 D:\Универ\Проекты 4 курс\FastFoodPlanner\FastFoodPlanner\obj\Debug\FastFoodPlanner.AddFoodForm.resources
+D:\Универ\Проекты 4 курс\FastFoodPlanner\FastFoodPlanner\obj\Debug\FastFoodPlanner.IngredientForm.resources

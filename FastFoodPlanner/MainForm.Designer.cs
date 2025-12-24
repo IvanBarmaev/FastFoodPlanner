@@ -35,6 +35,8 @@
             this.DeleteFoodBtn = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.DescriptionRTB = new System.Windows.Forms.RichTextBox();
+            this.ChangeReceptBtn = new System.Windows.Forms.Button();
+            this.IngredientListBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -77,7 +79,7 @@
             // 
             // DeleteFoodBtn
             // 
-            this.DeleteFoodBtn.Location = new System.Drawing.Point(294, 83);
+            this.DeleteFoodBtn.Location = new System.Drawing.Point(294, 112);
             this.DeleteFoodBtn.Name = "DeleteFoodBtn";
             this.DeleteFoodBtn.Size = new System.Drawing.Size(111, 23);
             this.DeleteFoodBtn.TabIndex = 4;
@@ -103,11 +105,33 @@
             this.DescriptionRTB.TabIndex = 6;
             this.DescriptionRTB.Text = "";
             // 
+            // ChangeReceptBtn
+            // 
+            this.ChangeReceptBtn.Location = new System.Drawing.Point(294, 83);
+            this.ChangeReceptBtn.Name = "ChangeReceptBtn";
+            this.ChangeReceptBtn.Size = new System.Drawing.Size(111, 23);
+            this.ChangeReceptBtn.TabIndex = 7;
+            this.ChangeReceptBtn.Text = "Изменить рецепт";
+            this.ChangeReceptBtn.UseVisualStyleBackColor = true;
+            this.ChangeReceptBtn.Click += new System.EventHandler(this.ChangeReceptBtn_Click);
+            // 
+            // IngredientListBtn
+            // 
+            this.IngredientListBtn.Location = new System.Drawing.Point(294, 180);
+            this.IngredientListBtn.Name = "IngredientListBtn";
+            this.IngredientListBtn.Size = new System.Drawing.Size(111, 37);
+            this.IngredientListBtn.TabIndex = 8;
+            this.IngredientListBtn.Text = "Список ингридиентов";
+            this.IngredientListBtn.UseVisualStyleBackColor = true;
+            this.IngredientListBtn.Click += new System.EventHandler(this.IngredientListBtn_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(417, 532);
+            this.Controls.Add(this.IngredientListBtn);
+            this.Controls.Add(this.ChangeReceptBtn);
             this.Controls.Add(this.DescriptionRTB);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.DeleteFoodBtn);
@@ -116,7 +140,7 @@
             this.Controls.Add(this.MenuLB);
             this.Controls.Add(this.label1);
             this.Name = "MainForm";
-            this.Text = "Form1";
+            this.Text = "FastFoodPlanner";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -131,6 +155,8 @@
         private System.Windows.Forms.Button DeleteFoodBtn;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.RichTextBox DescriptionRTB;
+        private System.Windows.Forms.Button ChangeReceptBtn;
+        private System.Windows.Forms.Button IngredientListBtn;
     }
 }
 

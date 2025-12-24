@@ -122,5 +122,26 @@ namespace FastFoodPlanner
                 
             }
         }
+
+        private void ChangeReceptBtn_Click(object sender, EventArgs e)
+        {
+            if (MenuLB.SelectedIndex != -1)
+            {
+                CompositionForm composition = new CompositionForm();
+                if (composition.ShowDialog() == DialogResult.OK)
+                {
+
+                }
+            }
+        }
+
+        private void IngredientListBtn_Click(object sender, EventArgs e)
+        {
+            IngredientForm ingredients = new IngredientForm();
+            if (ingredients.ShowDialog() == DialogResult.OK)
+            {
+
+            }
+        }
     }
 }
