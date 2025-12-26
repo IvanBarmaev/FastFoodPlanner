@@ -23,3 +23,4 @@ D:\Универ\Проекты 4 курс\FastFoodPlanner\FastFoodPlanner\bin\De
 D:\Универ\Проекты 4 курс\FastFoodPlanner\FastFoodPlanner\obj\Debug\FastFoodPlanner.CompositionForm.resources
 D:\Универ\Проекты 4 курс\FastFoodPlanner\FastFoodPlanner\obj\Debug\FastFoodPlanner.AddFoodForm.resources
 D:\Универ\Проекты 4 курс\FastFoodPlanner\FastFoodPlanner\obj\Debug\FastFoodPlanner.IngredientForm.resources
+D:\Универ\Проекты 4 курс\FastFoodPlanner\FastFoodPlanner\obj\Debug\FastFoodPlanner.AddIngredientForm.resources

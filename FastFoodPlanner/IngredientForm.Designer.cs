@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.IngredientLB = new System.Windows.Forms.ListBox();
             this.label1 = new System.Windows.Forms.Label();
             this.AddBtn = new System.Windows.Forms.Button();
             this.ChangeBtn = new System.Windows.Forms.Button();
@@ -37,13 +37,13 @@
             this.CancelBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // listBox1
+            // IngredientLB
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(12, 25);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(272, 277);
-            this.listBox1.TabIndex = 0;
+            this.IngredientLB.FormattingEnabled = true;
+            this.IngredientLB.Location = new System.Drawing.Point(12, 25);
+            this.IngredientLB.Name = "IngredientLB";
+            this.IngredientLB.Size = new System.Drawing.Size(272, 277);
+            this.IngredientLB.TabIndex = 0;
             // 
             // label1
             // 
@@ -62,6 +62,7 @@
             this.AddBtn.TabIndex = 2;
             this.AddBtn.Text = "Добавить";
             this.AddBtn.UseVisualStyleBackColor = true;
+            this.AddBtn.Click += new System.EventHandler(this.AddBtn_Click);
             // 
             // ChangeBtn
             // 
@@ -83,6 +84,7 @@
             // 
             // SaveBtn
             // 
+            this.SaveBtn.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.SaveBtn.Location = new System.Drawing.Point(290, 250);
             this.SaveBtn.Name = "SaveBtn";
             this.SaveBtn.Size = new System.Drawing.Size(75, 23);
@@ -113,9 +115,10 @@
             this.Controls.Add(this.ChangeBtn);
             this.Controls.Add(this.AddBtn);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.IngredientLB);
             this.Name = "IngredientForm";
             this.Text = "IngredientForm";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.IngredientFormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -123,7 +126,7 @@
 
         #endregion
 
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.ListBox IngredientLB;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button AddBtn;
         private System.Windows.Forms.Button ChangeBtn;

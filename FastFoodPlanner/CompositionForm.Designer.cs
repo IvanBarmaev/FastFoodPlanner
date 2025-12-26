@@ -29,12 +29,13 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.CompositionLB = new System.Windows.Forms.ListBox();
-            this.CancelBtn = new System.Windows.Forms.Button();
-            this.SaveBtn = new System.Windows.Forms.Button();
+            this.AllIngridientLB = new System.Windows.Forms.ListBox();
+            this.DishIngredientLB = new System.Windows.Forms.ListBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.AddBtn = new System.Windows.Forms.Button();
-            this.ChangeBtn = new System.Windows.Forms.Button();
-            this.DeleteBtn = new System.Windows.Forms.Button();
+            this.RemoveBtn = new System.Windows.Forms.Button();
+            this.AcceptBtn = new System.Windows.Forms.Button();
+            this.CancelBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -42,78 +43,87 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(78, 13);
+            this.label1.Size = new System.Drawing.Size(95, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Состав блюда";
+            this.label1.Text = "Все ингредиенты";
             // 
-            // CompositionLB
+            // AllIngridientLB
             // 
-            this.CompositionLB.FormattingEnabled = true;
-            this.CompositionLB.Location = new System.Drawing.Point(15, 25);
-            this.CompositionLB.Name = "CompositionLB";
-            this.CompositionLB.Size = new System.Drawing.Size(350, 199);
-            this.CompositionLB.TabIndex = 1;
+            this.AllIngridientLB.FormattingEnabled = true;
+            this.AllIngridientLB.Location = new System.Drawing.Point(12, 25);
+            this.AllIngridientLB.Name = "AllIngridientLB";
+            this.AllIngridientLB.Size = new System.Drawing.Size(221, 238);
+            this.AllIngridientLB.TabIndex = 1;
+            // 
+            // DishIngredientLB
+            // 
+            this.DishIngredientLB.FormattingEnabled = true;
+            this.DishIngredientLB.Location = new System.Drawing.Point(295, 25);
+            this.DishIngredientLB.Name = "DishIngredientLB";
+            this.DishIngredientLB.Size = new System.Drawing.Size(221, 238);
+            this.DishIngredientLB.TabIndex = 3;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(292, 9);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(110, 13);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Ингредиенты блюда";
+            // 
+            // AddBtn
+            // 
+            this.AddBtn.Location = new System.Drawing.Point(239, 56);
+            this.AddBtn.Name = "AddBtn";
+            this.AddBtn.Size = new System.Drawing.Size(50, 23);
+            this.AddBtn.TabIndex = 4;
+            this.AddBtn.Text = "-->";
+            this.AddBtn.UseVisualStyleBackColor = true;
+            // 
+            // RemoveBtn
+            // 
+            this.RemoveBtn.Location = new System.Drawing.Point(239, 85);
+            this.RemoveBtn.Name = "RemoveBtn";
+            this.RemoveBtn.Size = new System.Drawing.Size(50, 23);
+            this.RemoveBtn.TabIndex = 5;
+            this.RemoveBtn.Text = "<--";
+            this.RemoveBtn.UseVisualStyleBackColor = true;
+            // 
+            // AcceptBtn
+            // 
+            this.AcceptBtn.DialogResult = System.Windows.Forms.DialogResult.OK;
+            this.AcceptBtn.Location = new System.Drawing.Point(360, 269);
+            this.AcceptBtn.Name = "AcceptBtn";
+            this.AcceptBtn.Size = new System.Drawing.Size(75, 23);
+            this.AcceptBtn.TabIndex = 6;
+            this.AcceptBtn.Text = "Сохранить";
+            this.AcceptBtn.UseVisualStyleBackColor = true;
             // 
             // CancelBtn
             // 
             this.CancelBtn.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.CancelBtn.Location = new System.Drawing.Point(290, 230);
+            this.CancelBtn.Location = new System.Drawing.Point(441, 269);
             this.CancelBtn.Name = "CancelBtn";
             this.CancelBtn.Size = new System.Drawing.Size(75, 23);
-            this.CancelBtn.TabIndex = 2;
+            this.CancelBtn.TabIndex = 7;
             this.CancelBtn.Text = "Отмена";
             this.CancelBtn.UseVisualStyleBackColor = true;
             // 
-            // SaveBtn
-            // 
-            this.SaveBtn.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.SaveBtn.Location = new System.Drawing.Point(209, 230);
-            this.SaveBtn.Name = "SaveBtn";
-            this.SaveBtn.Size = new System.Drawing.Size(75, 23);
-            this.SaveBtn.TabIndex = 3;
-            this.SaveBtn.Text = "Сохранить";
-            this.SaveBtn.UseVisualStyleBackColor = true;
-            // 
-            // AddBtn
-            // 
-            this.AddBtn.Location = new System.Drawing.Point(371, 25);
-            this.AddBtn.Name = "AddBtn";
-            this.AddBtn.Size = new System.Drawing.Size(92, 35);
-            this.AddBtn.TabIndex = 4;
-            this.AddBtn.Text = "Добавить ингредиент";
-            this.AddBtn.UseVisualStyleBackColor = true;
-            // 
-            // ChangeBtn
-            // 
-            this.ChangeBtn.Location = new System.Drawing.Point(371, 66);
-            this.ChangeBtn.Name = "ChangeBtn";
-            this.ChangeBtn.Size = new System.Drawing.Size(92, 35);
-            this.ChangeBtn.TabIndex = 5;
-            this.ChangeBtn.Text = "Изменить ингредиент";
-            this.ChangeBtn.UseVisualStyleBackColor = true;
-            // 
-            // DeleteBtn
-            // 
-            this.DeleteBtn.Location = new System.Drawing.Point(371, 107);
-            this.DeleteBtn.Name = "DeleteBtn";
-            this.DeleteBtn.Size = new System.Drawing.Size(92, 35);
-            this.DeleteBtn.TabIndex = 6;
-            this.DeleteBtn.Text = "Удалить ингредиент";
-            this.DeleteBtn.UseVisualStyleBackColor = true;
-            // 
             // CompositionForm
             // 
-            this.AcceptButton = this.SaveBtn;
+            this.AcceptButton = this.AcceptBtn;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.CancelBtn;
-            this.ClientSize = new System.Drawing.Size(472, 260);
-            this.Controls.Add(this.DeleteBtn);
-            this.Controls.Add(this.ChangeBtn);
-            this.Controls.Add(this.AddBtn);
-            this.Controls.Add(this.SaveBtn);
+            this.ClientSize = new System.Drawing.Size(527, 302);
             this.Controls.Add(this.CancelBtn);
-            this.Controls.Add(this.CompositionLB);
+            this.Controls.Add(this.AcceptBtn);
+            this.Controls.Add(this.RemoveBtn);
+            this.Controls.Add(this.AddBtn);
+            this.Controls.Add(this.DishIngredientLB);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.AllIngridientLB);
             this.Controls.Add(this.label1);
             this.Name = "CompositionForm";
             this.Text = "CompositionForm";
@@ -125,11 +135,12 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ListBox CompositionLB;
-        private System.Windows.Forms.Button CancelBtn;
-        private System.Windows.Forms.Button SaveBtn;
+        private System.Windows.Forms.ListBox AllIngridientLB;
+        private System.Windows.Forms.ListBox DishIngredientLB;
+        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button AddBtn;
-        private System.Windows.Forms.Button ChangeBtn;
-        private System.Windows.Forms.Button DeleteBtn;
+        private System.Windows.Forms.Button RemoveBtn;
+        private System.Windows.Forms.Button AcceptBtn;
+        private System.Windows.Forms.Button CancelBtn;
     }
 }

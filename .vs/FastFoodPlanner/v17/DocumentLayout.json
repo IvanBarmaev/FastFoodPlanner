@@ -3,16 +3,36 @@
   "WorkspaceRootPath": "D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B 4 \u043A\u0443\u0440\u0441\\FastFoodPlanner\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9237FB43-1C52-45FA-91A1-E185A2908581}|FastFoodPlanner\\FastFoodPlanner.csproj|d:\\\u0443\u043D\u0438\u0432\u0435\u0440\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B 4 \u043A\u0443\u0440\u0441\\fastfoodplanner\\fastfoodplanner\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9237FB43-1C52-45FA-91A1-E185A2908581}|FastFoodPlanner\\FastFoodPlanner.csproj|solutionrelative:fastfoodplanner\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9237FB43-1C52-45FA-91A1-E185A2908581}|FastFoodPlanner\\FastFoodPlanner.csproj|d:\\\u0443\u043D\u0438\u0432\u0435\u0440\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B 4 \u043A\u0443\u0440\u0441\\fastfoodplanner\\fastfoodplanner\\ingredientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9237FB43-1C52-45FA-91A1-E185A2908581}|FastFoodPlanner\\FastFoodPlanner.csproj|solutionrelative:fastfoodplanner\\ingredientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9237FB43-1C52-45FA-91A1-E185A2908581}|FastFoodPlanner\\FastFoodPlanner.csproj|D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B 4 \u043A\u0443\u0440\u0441\\FastFoodPlanner\\fastfoodplanner\\ingredientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9237FB43-1C52-45FA-91A1-E185A2908581}|FastFoodPlanner\\FastFoodPlanner.csproj|solutionrelative:fastfoodplanner\\ingredientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9237FB43-1C52-45FA-91A1-E185A2908581}|FastFoodPlanner\\FastFoodPlanner.csproj|d:\\\u0443\u043D\u0438\u0432\u0435\u0440\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B 4 \u043A\u0443\u0440\u0441\\fastfoodplanner\\fastfoodplanner\\ingredient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9237FB43-1C52-45FA-91A1-E185A2908581}|FastFoodPlanner\\FastFoodPlanner.csproj|solutionrelative:fastfoodplanner\\ingredient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9237FB43-1C52-45FA-91A1-E185A2908581}|FastFoodPlanner\\FastFoodPlanner.csproj|D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B 4 \u043A\u0443\u0440\u0441\\FastFoodPlanner\\fastfoodplanner\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9237FB43-1C52-45FA-91A1-E185A2908581}|FastFoodPlanner\\FastFoodPlanner.csproj|solutionrelative:fastfoodplanner\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9237FB43-1C52-45FA-91A1-E185A2908581}|FastFoodPlanner\\FastFoodPlanner.csproj|D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B 4 \u043A\u0443\u0440\u0441\\FastFoodPlanner\\fastfoodplanner\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9237FB43-1C52-45FA-91A1-E185A2908581}|FastFoodPlanner\\FastFoodPlanner.csproj|solutionrelative:fastfoodplanner\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9237FB43-1C52-45FA-91A1-E185A2908581}|FastFoodPlanner\\FastFoodPlanner.csproj|d:\\\u0443\u043D\u0438\u0432\u0435\u0440\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B 4 \u043A\u0443\u0440\u0441\\fastfoodplanner\\fastfoodplanner\\addingredientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9237FB43-1C52-45FA-91A1-E185A2908581}|FastFoodPlanner\\FastFoodPlanner.csproj|solutionrelative:fastfoodplanner\\addingredientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9237FB43-1C52-45FA-91A1-E185A2908581}|FastFoodPlanner\\FastFoodPlanner.csproj|D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B 4 \u043A\u0443\u0440\u0441\\FastFoodPlanner\\fastfoodplanner\\addfoodform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9237FB43-1C52-45FA-91A1-E185A2908581}|FastFoodPlanner\\FastFoodPlanner.csproj|solutionrelative:fastfoodplanner\\addfoodform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9237FB43-1C52-45FA-91A1-E185A2908581}|FastFoodPlanner\\FastFoodPlanner.csproj|d:\\\u0443\u043D\u0438\u0432\u0435\u0440\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B 4 \u043A\u0443\u0440\u0441\\fastfoodplanner\\fastfoodplanner\\addingredientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9237FB43-1C52-45FA-91A1-E185A2908581}|FastFoodPlanner\\FastFoodPlanner.csproj|solutionrelative:fastfoodplanner\\addingredientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9237FB43-1C52-45FA-91A1-E185A2908581}|FastFoodPlanner\\FastFoodPlanner.csproj|D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B 4 \u043A\u0443\u0440\u0441\\FastFoodPlanner\\fastfoodplanner\\addfoodform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9237FB43-1C52-45FA-91A1-E185A2908581}|FastFoodPlanner\\FastFoodPlanner.csproj|solutionrelative:fastfoodplanner\\addfoodform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9237FB43-1C52-45FA-91A1-E185A2908581}|FastFoodPlanner\\FastFoodPlanner.csproj|D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B 4 \u043A\u0443\u0440\u0441\\FastFoodPlanner\\fastfoodplanner\\compositionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -23,12 +43,8 @@
       "RelativeMoniker": "D:0:0:{9237FB43-1C52-45FA-91A1-E185A2908581}|FastFoodPlanner\\FastFoodPlanner.csproj|solutionrelative:fastfoodplanner\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9237FB43-1C52-45FA-91A1-E185A2908581}|FastFoodPlanner\\FastFoodPlanner.csproj|D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B 4 \u043A\u0443\u0440\u0441\\FastFoodPlanner\\fastfoodplanner\\addfoodform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9237FB43-1C52-45FA-91A1-E185A2908581}|FastFoodPlanner\\FastFoodPlanner.csproj|solutionrelative:fastfoodplanner\\addfoodform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9237FB43-1C52-45FA-91A1-E185A2908581}|FastFoodPlanner\\FastFoodPlanner.csproj|D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B 4 \u043A\u0443\u0440\u0441\\FastFoodPlanner\\fastfoodplanner\\addfoodform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9237FB43-1C52-45FA-91A1-E185A2908581}|FastFoodPlanner\\FastFoodPlanner.csproj|solutionrelative:fastfoodplanner\\addfoodform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9237FB43-1C52-45FA-91A1-E185A2908581}|FastFoodPlanner\\FastFoodPlanner.csproj|d:\\\u0443\u043D\u0438\u0432\u0435\u0440\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B 4 \u043A\u0443\u0440\u0441\\fastfoodplanner\\fastfoodplanner\\ingredientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9237FB43-1C52-45FA-91A1-E185A2908581}|FastFoodPlanner\\FastFoodPlanner.csproj|solutionrelative:fastfoodplanner\\ingredientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,34 +54,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IngredientForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B 4 \u043A\u0443\u0440\u0441\\FastFoodPlanner\\FastFoodPlanner\\IngredientForm.cs",
-              "RelativeDocumentMoniker": "FastFoodPlanner\\IngredientForm.cs",
-              "ToolTip": "D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B 4 \u043A\u0443\u0440\u0441\\FastFoodPlanner\\FastFoodPlanner\\IngredientForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "FastFoodPlanner\\IngredientForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentIndex": 4,
+              "Title": "AddIngredientForm.cs",
+              "DocumentMoniker": "D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B 4 \u043A\u0443\u0440\u0441\\FastFoodPlanner\\FastFoodPlanner\\AddIngredientForm.cs",
+              "RelativeDocumentMoniker": "FastFoodPlanner\\AddIngredientForm.cs",
+              "ToolTip": "D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B 4 \u043A\u0443\u0440\u0441\\FastFoodPlanner\\FastFoodPlanner\\AddIngredientForm.cs",
+              "RelativeToolTip": "FastFoodPlanner\\AddIngredientForm.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T06:09:16.115Z"
+              "WhenOpened": "2025-12-26T17:33:01.303Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "AddFoodForm.cs",
-              "DocumentMoniker": "D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B 4 \u043A\u0443\u0440\u0441\\FastFoodPlanner\\FastFoodPlanner\\AddFoodForm.cs",
-              "RelativeDocumentMoniker": "FastFoodPlanner\\AddFoodForm.cs",
-              "ToolTip": "D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B 4 \u043A\u0443\u0440\u0441\\FastFoodPlanner\\FastFoodPlanner\\AddFoodForm.cs",
-              "RelativeToolTip": "FastFoodPlanner\\AddFoodForm.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAswCcAAAAAAAAAAAAAAA==",
+              "Title": "AddIngredientForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B 4 \u043A\u0443\u0440\u0441\\FastFoodPlanner\\FastFoodPlanner\\AddIngredientForm.cs",
+              "RelativeDocumentMoniker": "FastFoodPlanner\\AddIngredientForm.cs",
+              "ToolTip": "D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B 4 \u043A\u0443\u0440\u0441\\FastFoodPlanner\\FastFoodPlanner\\AddIngredientForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "FastFoodPlanner\\AddIngredientForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-23T12:08:35.341Z"
+              "WhenOpened": "2025-12-26T16:23:01.874Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "Food.cs",
               "DocumentMoniker": "D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B 4 \u043A\u0443\u0440\u0441\\FastFoodPlanner\\FastFoodPlanner\\Food.cs",
               "RelativeDocumentMoniker": "FastFoodPlanner\\Food.cs",
@@ -73,39 +91,93 @@
               "RelativeToolTip": "FastFoodPlanner\\Food.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-23T10:05:38.508Z"
+              "WhenOpened": "2025-12-23T10:05:38.508Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "Ingredient.cs",
+              "DocumentMoniker": "D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B 4 \u043A\u0443\u0440\u0441\\FastFoodPlanner\\FastFoodPlanner\\Ingredient.cs",
+              "RelativeDocumentMoniker": "FastFoodPlanner\\Ingredient.cs",
+              "ToolTip": "D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B 4 \u043A\u0443\u0440\u0441\\FastFoodPlanner\\FastFoodPlanner\\Ingredient.cs",
+              "RelativeToolTip": "FastFoodPlanner\\Ingredient.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T16:05:14.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IngredientForm.cs",
+              "DocumentMoniker": "D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B 4 \u043A\u0443\u0440\u0441\\FastFoodPlanner\\FastFoodPlanner\\IngredientForm.cs",
+              "RelativeDocumentMoniker": "FastFoodPlanner\\IngredientForm.cs",
+              "ToolTip": "D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B 4 \u043A\u0443\u0440\u0441\\FastFoodPlanner\\FastFoodPlanner\\IngredientForm.cs",
+              "RelativeToolTip": "FastFoodPlanner\\IngredientForm.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAiwD8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T15:59:12.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IngredientForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B 4 \u043A\u0443\u0440\u0441\\FastFoodPlanner\\FastFoodPlanner\\IngredientForm.cs",
+              "RelativeDocumentMoniker": "FastFoodPlanner\\IngredientForm.cs",
+              "ToolTip": "D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B 4 \u043A\u0443\u0440\u0441\\FastFoodPlanner\\FastFoodPlanner\\IngredientForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "FastFoodPlanner\\IngredientForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T06:09:16.115Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "CompositionForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B 4 \u043A\u0443\u0440\u0441\\FastFoodPlanner\\FastFoodPlanner\\CompositionForm.cs",
               "RelativeDocumentMoniker": "FastFoodPlanner\\CompositionForm.cs",
               "ToolTip": "D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B 4 \u043A\u0443\u0440\u0441\\FastFoodPlanner\\FastFoodPlanner\\CompositionForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "FastFoodPlanner\\CompositionForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T13:00:44.791Z"
+              "WhenOpened": "2025-12-22T13:00:44.791Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "AddFoodForm.cs",
+              "DocumentMoniker": "D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B 4 \u043A\u0443\u0440\u0441\\FastFoodPlanner\\FastFoodPlanner\\AddFoodForm.cs",
+              "RelativeDocumentMoniker": "FastFoodPlanner\\AddFoodForm.cs",
+              "ToolTip": "D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B 4 \u043A\u0443\u0440\u0441\\FastFoodPlanner\\FastFoodPlanner\\AddFoodForm.cs",
+              "RelativeToolTip": "FastFoodPlanner\\AddFoodForm.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAswCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T12:08:35.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "AddFoodForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B 4 \u043A\u0443\u0440\u0441\\FastFoodPlanner\\FastFoodPlanner\\AddFoodForm.cs",
               "RelativeDocumentMoniker": "FastFoodPlanner\\AddFoodForm.cs",
               "ToolTip": "D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B 4 \u043A\u0443\u0440\u0441\\FastFoodPlanner\\FastFoodPlanner\\AddFoodForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "FastFoodPlanner\\AddFoodForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-23T09:44:23.419Z"
+              "WhenOpened": "2025-12-23T09:44:23.419Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "MainForm.cs",
               "DocumentMoniker": "D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B 4 \u043A\u0443\u0440\u0441\\FastFoodPlanner\\FastFoodPlanner\\MainForm.cs",
               "RelativeDocumentMoniker": "FastFoodPlanner\\MainForm.cs",
               "ToolTip": "D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B 4 \u043A\u0443\u0440\u0441\\FastFoodPlanner\\FastFoodPlanner\\MainForm.cs",
               "RelativeToolTip": "FastFoodPlanner\\MainForm.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAkwI4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAswEQAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-22T13:01:00.553Z",
               "EditorCaption": ""
@@ -119,7 +191,8 @@
               "ToolTip": "D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B 4 \u043A\u0443\u0440\u0441\\FastFoodPlanner\\FastFoodPlanner\\MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "FastFoodPlanner\\MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T13:00:44.293Z"
+              "WhenOpened": "2025-12-22T13:00:44.293Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             }
           ]
         }
