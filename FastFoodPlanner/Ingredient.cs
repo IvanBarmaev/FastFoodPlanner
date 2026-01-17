@@ -9,7 +9,7 @@ namespace FastFoodPlanner
     internal class Ingredient
     {
         string _name;
-        long _count;
+        long _count, _ID;
 
         public string name
         {
@@ -23,10 +23,22 @@ namespace FastFoodPlanner
             set { if (value >= 0) _count = value; }
         }
 
+        public long ID
+        {
+            get { return _ID; }
+        }
+
         public Ingredient(string _name,  long _count)
         {
             this._name = _name;
             this._count = _count;
+        }
+
+        public Ingredient(long _ID, string _name, long _count)
+        {
+            this._name = _name;
+            this._count = _count;
+            this._ID = _ID;
         }
 
         public override string ToString()

@@ -40,7 +40,7 @@ namespace FastFoodPlanner
             adapter.Fill(data);
             foreach (DataRow i in data.Rows)
             {
-                foods.Add(new Food(i.Field<string>("Название"), i.Field<long>("Стоимость"), i.Field<string>("Описание")));
+                foods.Add(new Food(i.Field<long>("ID_блюда"), i.Field<string>("Название"), i.Field<long>("Стоимость"), i.Field<string>("Описание")));
                 MenuLB.Items.Add(foods.Last());
                 //MenuLB.Items.Add($"{i.Field<long>("ID_блюда")} {i.Field<string>("Название")}. Стоимость: {i.Field<double>("Стоимость")}");
             }
@@ -127,10 +127,11 @@ namespace FastFoodPlanner
         {
             if (MenuLB.SelectedIndex != -1)
             {
-                CompositionForm composition = new CompositionForm();
+                Food temp = MenuLB.SelectedItem as Food;
+                CompositionForm composition = new CompositionForm(temp.ID, connection);
                 if (composition.ShowDialog() == DialogResult.OK)
                 {
-
+                    
                 }
             }
         }

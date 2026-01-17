@@ -72,5 +72,14 @@ namespace FastFoodPlanner
                 }
             }
         }
+
+        private void ChangeBtn_Click(object sender, EventArgs e)
+        {
+            if (IngredientLB.SelectedIndex != -1)
+            {
+                Ingredient temp = ingredients[IngredientLB.SelectedIndex];
+
+            }
+        }
     }
 }
